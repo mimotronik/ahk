@@ -12,7 +12,7 @@ capslock & f::
 if WinExist("ahk_exe chrome.exe")
 	WinActivate,ahk_exe chrome.exe
 else
-	Run,C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+	Run,C:\Program Files\Google\Chrome\Application\chrome.exe
 	return
 
 capslock & t::
